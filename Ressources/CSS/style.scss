@@ -1,0 +1,418 @@
+// RESET CSS
+// ===============================================================
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+// ================================================================
+
+$bxFonce: #280D0C;
+$bordeaux: #682425;
+$bgFonce: #CBBBA0;
+$beige: #E0DFD1;
+$grisvert: #6D6750;
+$gris: #BDBFC1;
+
+// GLOBAL
+// ================================================================
+
+
+body {
+    background-color: $beige;
+    font-family: 'Montserrat', sans-serif;
+    color: $bxFonce;
+    // font-size: 0,8rem;
+}
+
+//font-family: 'Luckiest Guy', cursive;
+//font-family: 'Molle', cursive;
+//font-family: 'Montserrat', sans-serif;
+
+h1 {
+    font-family: 'Molle', cursive;
+    color: $bordeaux;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    color: $beige;
+}
+
+// HEADER
+// =============================================================== 
+
+header {
+    background-color: $bordeaux;
+    // width: 100%;
+    // height: 30px;
+    margin: 0;
+    padding: 0;
+
+    .pseudo {
+        color: $beige;
+        margin-top: 5px;
+        font-size: 0.8rem;
+    }
+
+    i {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    a {
+        color: $beige !important;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $grisvert !important;
+        transition: 1s;
+    }
+
+    .logo2 {
+        height: 50px;
+    }
+
+}
+
+// FOOTER
+// =============================================================== 
+
+footer {
+    background-color: $bxFonce;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px !important;
+
+    p {
+        text-align: center;
+        color: $bordeaux;
+        font-size: 0.6rem;
+        padding-top: 10px;
+    }
+}
+
+.bloc {
+    height: 30px;
+}
+
+// SECTION INDEX
+// =============================================================== 
+
+section {
+    height: 50rem;
+    margin-bottom: 50px;
+
+    .barreRG {
+        background-color: $bordeaux;
+        height: 180px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 500px;
+        position: relative;
+        top: -25px;
+    }
+}
+
+// SECTION FORMULAIRE
+// =============================================================== 
+
+section {
+    margin-bottom: 50px;
+
+    .box {
+        background-color: $bgFonce;
+        border: 1px solid $bxFonce !important;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        padding: 30px;
+    }
+
+    .input {
+        width: 48%;
+        padding: 2px;
+        background-color: $beige;
+        border: 1px solid $grisvert;
+        border-radius: 5px;
+        color: $bxFonce;
+        margin: 5px;
+    }
+
+    .btn {
+        background-color: $beige;
+        color: $bxFonce;
+        border: 1px solid $grisvert;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 2px 5px;
+        transition: 1s;
+    }
+
+    .btn:hover {
+        background-color: $bordeaux;
+        color: $beige;
+    }
+
+    textarea {
+        width: 98%;
+        padding: 2px;
+        background-color: $beige;
+        border: 1px solid $grisvert;
+        border-radius: 5px;
+        color: $bxFonce;
+        margin: 5px;
+    }
+
+    select {
+        width: 38%;
+        padding: 2px;
+        background-color: $beige;
+        border: 1px solid $grisvert;
+        border-radius: 5px;
+        color: $bxFonce;
+        margin: 5px;
+    }
+
+    a {
+        color: $bordeaux !important;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $grisvert !important;
+        transition: 1s;
+    }
+}
+
+// SECTION TABLE
+// =============================================================== 
+
+table {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: $bordeaux;
+    // width: 100%;
+    margin-top: 30px;
+
+    td {
+        padding: 2px 5px;
+        text-align: center;
+
+        i {
+            color: $bordeaux;
+        }
+
+        i:hover {
+            color: $grisvert !important;
+            transition: 1s;
+        }
+    }
+
+    th {
+        padding: 2px 5px;
+    }
+
+    thead {
+        border-top: 2px solid $bxFonce;
+        border-bottom: 2px solid $bxFonce;
+        text-align: center;
+
+        .center {
+            text-align: center;
+        }
+
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    tr {
+        border-bottom: 1px solid $bordeaux;
+    }
+}
+
+
+// SECTION TABLEAU DE BORD
+// =============================================================== 
+
+
+.gestion {
+    text-align: right;
+
+    a {
+        color: $bordeaux !important;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $grisvert !important;
+        transition: 1s;
+    }
+
+}
+
+
+// SECTION CARTE
+// =============================================================== 
+
+.card2 {
+    border: 1px solid $bordeaux;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px $bordeaux;
+    margin: 20px 5px;
+    width: 300px;
+
+    .droite {
+        text-align: right;
+        // width: 50%;
+    }
+
+    .gauche {
+        text-align: left;
+        // width: 50%;
+    }
+
+
+    .photo {
+        width: 100%;
+        border: 1px solid $bordeaux;
+        margin: 5px;
+    }
+
+    h3 {
+        font-size: 14pt !important;
+        color: $bordeaux;
+    }
+
+    .prix {
+        font-size: 10pt;
+    }
+
+
+    a {
+        color: $bordeaux !important;
+        text-decoration: none !important;
+    }
+
+    a:hover {
+        color: $grisvert !important;
+        transition: 1s;
+    }
+
+}
+
+// SECTION PRESENTATION
+// =============================================================== 
+
+.pres {
+    border: 1px solid $bordeaux;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px $bordeaux;
+    margin: 20px 5px;
+    width: 80%;
+    max-width: 980px;
+    padding: 10px;
+
+    .droite {
+        text-align: right;
+        // width: 50%;
+    }
+
+    .gauche {
+        text-align: left;
+        // width: 50%;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 1050px;
+        // margin: 5px;
+    }
+
+    h3 {
+        font-size: 22pt !important;
+        color: $bordeaux;
+    }
+
+    .prix {
+        font-size: 14pt;
+    }
+
+    .annee {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    .km {
+        font-size: 12pt;
+    }
+
+    .description {
+        font-size: 12pt;
+    }
+
+    .dept {
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .ville {
+        font-size: 10pt;
+    }
+
+    a {
+        color: $bordeaux !important;
+        text-decoration: none !important;
+    }
+
+    a:hover {
+        color: $grisvert !important;
+        transition: 1s;
+    }
+
+    span {
+        .ville {
+            font-size: 10pt;
+        }
+    }
+}
+
+// MEDIA SCREEN 500
+// ===============================================================
+
+
+@media screen and (max-width: 500px) {
+    #slider {
+        display: none;
+    }
+    .logo {
+        width: 300px !important;
+    }
+    section {
+        height: 30rem;
+            }    
+}
+
+// MEDIA SCREEN 767
+// ===============================================================
+
+
+@media screen and (max-width: 767px) {
+    #slider {
+        display: none;
+    }
+    .pres {
+    
+        .droite {
+            text-align: left;
+        }
+    }     
+}

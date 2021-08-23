@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E0DFD1;
+  font-family: "Montserrat", sans-serif;
+  color: #280D0C;
+}
+
+h1 {
+  font-family: "Molle", cursive;
+  color: #682425;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: #E0DFD1;
+}
+
+header {
+  background-color: #682425;
+  margin: 0;
+  padding: 0;
+}
+header .pseudo {
+  color: #E0DFD1;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+header i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header a {
+  color: #E0DFD1 !important;
+  text-decoration: none;
+}
+header a:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+header .logo2 {
+  height: 50px;
+}
+
+footer {
+  background-color: #280D0C;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px !important;
+}
+footer p {
+  text-align: center;
+  color: #682425;
+  font-size: 0.6rem;
+  padding-top: 10px;
+}
+
+.bloc {
+  height: 30px;
+}
+
+section {
+  height: 50rem;
+  margin-bottom: 50px;
+}
+section .barreRG {
+  background-color: #682425;
+  height: 180px;
+  width: 100%;
+}
+section .logo {
+  width: 500px;
+  position: relative;
+  top: -25px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+section .box {
+  background-color: #CBBBA0;
+  border: 1px solid #280D0C !important;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+section .input {
+  width: 48%;
+  padding: 2px;
+  background-color: #E0DFD1;
+  border: 1px solid #6D6750;
+  border-radius: 5px;
+  color: #280D0C;
+  margin: 5px;
+}
+section .btn {
+  background-color: #E0DFD1;
+  color: #280D0C;
+  border: 1px solid #6D6750;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px 5px;
+  transition: 1s;
+}
+section .btn:hover {
+  background-color: #682425;
+  color: #E0DFD1;
+}
+section textarea {
+  width: 98%;
+  padding: 2px;
+  background-color: #E0DFD1;
+  border: 1px solid #6D6750;
+  border-radius: 5px;
+  color: #280D0C;
+  margin: 5px;
+}
+section select {
+  width: 38%;
+  padding: 2px;
+  background-color: #E0DFD1;
+  border: 1px solid #6D6750;
+  border-radius: 5px;
+  color: #280D0C;
+  margin: 5px;
+}
+section a {
+  color: #682425 !important;
+  text-decoration: none;
+}
+section a:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+
+table {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #682425;
+  margin-top: 30px;
+}
+table td {
+  padding: 2px 5px;
+  text-align: center;
+}
+table td i {
+  color: #682425;
+}
+table td i:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+table th {
+  padding: 2px 5px;
+}
+table thead {
+  border-top: 2px solid #280D0C;
+  border-bottom: 2px solid #280D0C;
+  text-align: center;
+}
+table thead .center {
+  text-align: center;
+}
+table .center {
+  text-align: center;
+}
+table tr {
+  border-bottom: 1px solid #682425;
+}
+
+.gestion {
+  text-align: right;
+}
+.gestion a {
+  color: #682425 !important;
+  text-decoration: none;
+}
+.gestion a:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+
+.card2 {
+  border: 1px solid #682425;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #682425;
+  margin: 20px 5px;
+  width: 300px;
+}
+.card2 .droite {
+  text-align: right;
+}
+.card2 .gauche {
+  text-align: left;
+}
+.card2 .photo {
+  width: 100%;
+  border: 1px solid #682425;
+  margin: 5px;
+}
+.card2 h3 {
+  font-size: 14pt !important;
+  color: #682425;
+}
+.card2 .prix {
+  font-size: 10pt;
+}
+.card2 a {
+  color: #682425 !important;
+  text-decoration: none !important;
+}
+.card2 a:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+
+.pres {
+  border: 1px solid #682425;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px #682425;
+  margin: 20px 5px;
+  width: 80%;
+  max-width: 980px;
+  padding: 10px;
+}
+.pres .droite {
+  text-align: right;
+}
+.pres .gauche {
+  text-align: left;
+}
+.pres .photo {
+  width: 100%;
+  max-width: 1050px;
+}
+.pres h3 {
+  font-size: 22pt !important;
+  color: #682425;
+}
+.pres .prix {
+  font-size: 14pt;
+}
+.pres .annee {
+  font-size: 12pt;
+  font-weight: bold;
+}
+.pres .km {
+  font-size: 12pt;
+}
+.pres .description {
+  font-size: 12pt;
+}
+.pres .dept {
+  font-size: 10pt;
+  font-weight: bold;
+}
+.pres .ville {
+  font-size: 10pt;
+}
+.pres a {
+  color: #682425 !important;
+  text-decoration: none !important;
+}
+.pres a:hover {
+  color: #6D6750 !important;
+  transition: 1s;
+}
+.pres span .ville {
+  font-size: 10pt;
+}
+
+@media screen and (max-width: 500px) {
+  #slider {
+    display: none;
+  }
+
+  .logo {
+    width: 300px !important;
+  }
+
+  section {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  #slider {
+    display: none;
+  }
+
+  .pres .droite {
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */
