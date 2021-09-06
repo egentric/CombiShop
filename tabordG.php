@@ -62,7 +62,7 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
     <section class="container">
 
         <div class="d-flex justify-content-center align-items-center">
-            <h1>Tableau de bord Admin</h1>';
+            <h1>Tableau de bord Admin</h1>
 
         </div>
 
@@ -78,10 +78,9 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
         <!--  UTILISATEUR
 ================================================================= -->
 
-        <div class="d-flex flex-column justify-content-center align-items-center box">
-            <div class="table-responsive-sm">
+        <div class="d-flex flex-column justify-content-center table-responsive-lg box">
                 <h4>Utilisateurs</h4>
-                <table class="">
+                <table>
                     <thead>
                         <th>Pseudo</th>
                         <th>Email</th>
@@ -116,7 +115,6 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </tbody>
                 </table>
-            </div>
         </div>
 
 
@@ -126,10 +124,9 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-        <div class="d-flex flex-column justify-content-center align-items-center box">
-            <div class="table-responsive-sm">
+        <div class="d-flex flex-column justify-content-center table-responsive-lg box">
                 <h4>Annonces</h4>
-                <table class="">
+                <table>
                     <thead>
                         <th>Pseudo</th>
                         <th>Photo</th>
@@ -169,18 +166,17 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </tbody>
                 </table>
-            </div>
         </div>
 
-        <div class="d-flex flex-column justify-content-center align-items-center box">
-            <div class="table-responsive-sm">
-            <h4>Gatégories</h4>
+        <div class="d-flex flex-column justify-content-center align-items-center table-responsive-lg box">
+            
                 <form action="createCategories.php" method="post">
+                    <h4>Gatégories</h4>
                     <input class="" type="text" name="nomCategorie" placeholder="Catégorie">
                     <input class="envoie" type="submit" value="Ajouter">
                 </form>
 
-                <table class="">
+                <table class="tab">
                     <thead>
                         <th>Nom Catégories</th>
                         <th colspan="2" class="center">Action</th>
@@ -198,7 +194,6 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </tbody>
                 </table>
-            </div>
         </div>
 
     </section>

@@ -44,9 +44,7 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
 
     <!-- styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
     <link rel="stylesheet" href="./Ressources/CSS/style.css">
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 
@@ -61,7 +59,7 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
     <section class="container">
 
         <div class="d-flex justify-content-center align-items-center">
-            <h1>Tableau de bord</h1>';
+            <h1>Tableau de bord</h1>
         </div>
 
         <div class="d-flex justify-content-end">
@@ -82,7 +80,7 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
             <form class="" action="createAnnonces.php" method="post" enctype="multipart/form-data">
 
                 <h4>Nouvelles annonces</h4>
-                <input class="input" type="text" name="title" value="" placeholder="Titre">
+                <input class="input prems" type="text" name="title" value="" placeholder="Titre">
                 <input class="input" type="text" name="year" value="" placeholder="Année">
                 <input class="input" type="text" name="km" value="" placeholder="Kilomètre">
                 <input class="input" type="text" name="price" value="" placeholder="Prix">
@@ -110,10 +108,9 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-        <div class="d-flex flex-column justify-content-center align-items-center box">
+        <div class="d-flex flex-column justify-content-center table-responsive-lg box">
             <h4>Mes annonces</h4>
-            <div class="table-responsive-sm">
-        <table class="">
+        <table>
                     <thead>
                         <th>Photo</th>
                         <th>Titre</th>
@@ -152,16 +149,14 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </tbody>
                 </table>
-            </div>
         </div>
 
 <!--  Mes Informations
 ================================================================= -->
 
-    <div class="d-flex flex-column justify-content-center align-items-center box">
-   <div class="table-responsive-sm">
+    <div class="d-flex flex-column justify-content-center table-responsive-lg box">
        <h4>Mes informations</h4>
-        <table class=""> 
+        <table> 
                     <thead>
                         <th>Pseudo</th>
                         <th>Email</th>
@@ -198,7 +193,6 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
                         ?>
                     </tbody>
                 </table>
-        </div>
     </div>
 
     </section>

@@ -19,6 +19,7 @@ h4 {
   font-family: "Luckiest Guy", cursive;
   text-align: center;
   color: #E0DFD1;
+  margin-top: 30px;
 }
 
 header {
@@ -82,12 +83,16 @@ section .logo {
 section {
   margin-bottom: 50px;
 }
+section form {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
 section .box {
   background-color: #CBBBA0;
   border: 1px solid #280D0C !important;
   border-radius: 8px;
   margin-bottom: 50px;
-  padding: 30px;
 }
 section .input {
   width: 48%;
@@ -97,6 +102,9 @@ section .input {
   border-radius: 5px;
   color: #280D0C;
   margin: 5px;
+}
+section .input .prems {
+  margin-top: 30px;
 }
 section .btn {
   background-color: #E0DFD1;
@@ -142,7 +150,10 @@ table {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   color: #682425;
-  margin-top: 30px;
+  margin: 30px;
+}
+table .tab {
+  margin-top: 0px;
 }
 table td {
   padding: 2px 5px;

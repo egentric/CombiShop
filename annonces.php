@@ -61,9 +61,11 @@ $users = $req3->fetchAll(PDO::FETCH_ASSOC);
     <section class="container mb-5 pb-5">
 
         <div class="d-flex justify-content-center align-items-center">
-            <h1>Annonces</h1>';
-
+            <h1>Annonces</h1>
         </div>
+<!-- =========================== -->
+<div class="d-flex justify-content-center align-items-end">
+
         <div class="row justify-content-around">
 
 
